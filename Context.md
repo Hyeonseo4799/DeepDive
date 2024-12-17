@@ -6,8 +6,11 @@
 
 ### ContextWrapper *(Proxy)*
 - `Context` 구현체를 래핑하여 `Context` 구현체의 동작을 하도록 위임
-    ⇒ `ContextWrapper`는 `Context` 구현체의 메서드를 대신 호출하는 역할 
+  
+    ⇒ `ContextWrapper`는 `Context` 구현체의 메서드를 대신 호출하는 역할
+
     ⇒ `Context` 구현체의 변경없이 원하는 기능 및 동작 재정의
+  
     ⇒ `Context` 구현체를 바꾸어도 `Context`를 사용하던 코드 변경 없음
 
 - `ContextWrapper`에서 구현체를 바꾸기 위해 `attachBaseContext()` 사용
