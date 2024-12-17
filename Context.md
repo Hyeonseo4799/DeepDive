@@ -24,8 +24,10 @@
 ### ContextThemeWrapper
 - `ContextWrapper`의 서브 클래스로 `Context`의 Theme을 수정하거나 교체
 - 테마와 관련된 동작을 `mBase`로 위임하지 않고 멤버변수를 이용
+  
     ⇒ 테마와 관련된 api를 `baseContext`로 위임하지 않고 자신의 Theme 가짐
     
 ### Component
 - 각각 `ContextImpl`를 생성하고 `ContextWrapper`의 메서드를 사용
+  
     ⇒ `getBaseContext()`, `getApplicationContext()`, `getApplication()` 등
