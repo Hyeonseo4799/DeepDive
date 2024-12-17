@@ -1,10 +1,10 @@
 # Context
 
-### Context*(Subject)*
+### Context *(Subject)*
 - Application 환경에 관한 전체 정보를 받을 수 있는 추상 클래스
 - `Context`는 추상 클래스이기 때문에 구현체가 필요
 
-### ContextWrapper*(Proxy)*
+### ContextWrapper *(Proxy)*
 - `Context` 구현체를 래핑하여 `Context` 구현체의 동작을 하도록 위임
     ⇒ `ContextWrapper`는 `Context` 구현체의 메서드를 대신 호출하는 역할 
     ⇒ `Context` 구현체의 변경없이 원하는 기능 및 동작 재정의
@@ -12,7 +12,7 @@
 
 - `ContextWrapper`에서 구현체를 바꾸기 위해 `attachBaseContext()` 사용
 
-### ContextImpl*(Real Subject)*
+### ContextImpl *(Real Subject)*
 - `Context`의 기본 구현체로 `ContextWrapper`로 감싸져 있음
 - `ContextWrapper`가 래핑하는 구현체가 항상 `ContextImpl`는 아님
 - `ContextWrapper` 생성자와 `attachBaseContext()` 메서드에 대입되는 것
