@@ -5,7 +5,7 @@
 - `Context`는 추상 클래스이기 때문에 구현체가 필요
 
 ### ContextWrapper *(Proxy)*
-- `Context` 구현체를 래핑하여 `Context` 구현체의 동작을 하도록 위임
+- `Context`를 래핑하여 `Context` 구현체의 동작을 하도록 위임
   
     ⇒ `ContextWrapper`는 `Context` 구현체의 메서드를 대신 호출하는 역할
 
